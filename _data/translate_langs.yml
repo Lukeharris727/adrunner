@@ -1,0 +1,23 @@
+- lang: en
+  img: https://www.countryflags.io/us/flat/64.png
+  text: English
+
+- lang: fr
+  img: https://www.countryflags.io/fr/flat/64.png
+  text: Franch
+
+- lang: zh-CN
+  img: https://www.countryflags.io/cn/flat/64.png
+  text: Chinese(Simple)
+
+- lang: es
+  img: https://www.countryflags.io/es/flat/64.png
+  text: Spain
+
+- lang: ko
+  img: https://www.countryflags.io/kr/flat/64.png
+  text: Korean
+
+- lang: ru
+  img: https://www.countryflags.io/ru/flat/64.png
+  text: Russia
