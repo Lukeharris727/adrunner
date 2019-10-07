@@ -1,5 +1,5 @@
 home:
   heading: ""
   subheading: ""
-  banner: "../assets/images/adRunnerCover.png"
+  banner: "./assets/images/adRunnerCover.png"
 
