@@ -39,6 +39,8 @@ header_pages:
 
 theme_color: spacegrey
 
+banner: './assets/images/adRunnerCover.png'
+
 plugins:
   - jekyll-include-cache
   - jekyll-feed
