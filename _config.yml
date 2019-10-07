@@ -27,7 +27,7 @@ favicon: "/icon.png"
 
 # Build settings
 markdown: kramdown
-remote_theme: jekyll-theme-yat
+remote_theme: jeffreytse/jekyll-theme-yat
 plugins:
   - jekyll-feed
 
