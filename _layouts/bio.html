@@ -5,9 +5,9 @@ layout: framework
 
 .title {
   border-radius: 5px;
-  background-color: #DEDEDE;
+  background-color: #979797;
   padding: 20px;
-  box-shadow: 10px 10px #D2C8C8;
+  box-shadow: 10px 10px #757575;
   width: 50%;
   position: absolute;
   left: 20%;
@@ -20,7 +20,7 @@ layout: framework
 }
 
 .description {
-  margin-top: 180px;
+  margin-top: 100px;
   font-size: 18px;
 }
 
@@ -31,15 +31,146 @@ layout: framework
   border: 20px groove #ddd;
   width: 80%;
 }
+
+.padding {
+  padding: 10px;
+}
+
+.bio {
+  overflow: hidden;
+  height: 400px;
+  background: white;
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.bio img {
+  height: 100%;
+  width: 350px;
+  object-fit: cover;
+}
+
+.bio h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.bio p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  opacity: .7;
+  padding-bottom: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.bio a {
+  margin-right: 20px;
+  margin-left: 120px;
+}
+
+.bio .bio-infos {
+  padding: 16px;
+}
+
+#container {
+    width: 100px;
+    margin: 0 auto;
+    background-color: #E5E5E5;
+    margin-top: 15px;
+}
+.stripe {
+    background-color:#E5E5E5;
+    height: 250px;
+    position: relative;
+}
+.stripe:before {
+    content:"";
+    background-color:#E5E5E5;
+    position: absolute;
+    height: 100%;
+    width: 4000px;
+    left: -3250px;
+    z-index: -1;
+}
+
+input[type=text], select, textarea {
+  width: 300px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type=submit] {
+  background-color: #1C4B82;
+  color: white;
+  padding: 20px 45px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type=submit]:hover {
+  background-color: #183661;
+}
+
+.enter {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 20px;
+}
+
 </style>
 
 <div class="title">
 <h1>About Us</h1>
 </div>
+
+
+<div class="bio">
+  <img src="./assets/images/headshot.jpg" />
+  <div class="bio-infos">
+    <h2>Zach Harris -- Founder/CEO</h2>
+    <p>Zach has been in the online marketing industry -- specifically in real estate -- for several years. He has been on and observed thousands of phone consultations giving him a deep understanding of the types of challenges small businesses are facing. Zach is well versed in Google Ads, PPC, SEO, WordPress, and specializes in Facebook Advertising.</p>
+    <a href="https://www.linkedin.com/in/zachary-harris-b7445a112/">Follow Zach on LinkedIn to see more</a>
+  </div>
+</div>
+
+
+
 <div class= "description">
   <p><em>AdRunner cuts through all of the unnecessary add-ons and simply gives you what you're looking for- LEADS. We automate the process and sync the leads directly to whatever CRM you're already using. Additionally AdRunner has proven text and email follow-up scripts to help you convert better. Contact us today to learn more!</em></p>
 </div>
   <video class="video" width="400" height="450" controls>
       <source src="./assets/images/video.mp4" type=video/mp4>
     </video>
+
+
+<div id="container">
+
+<div class="stripe">
+  <form action="https://formspree.io/info@bridge2china.co.uk" method="POST">
+    <div class="enter"><h3>View Demo!</h3></div>
+    <input type="text" id="email" name="_replyto" placeholder="Your email address.." required>
+
+    <input type="submit" name='redirect_to' value='View Demo!'>
+    </form>
+  </div>
+</div>
 
