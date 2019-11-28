@@ -17,12 +17,13 @@
 .calender {
   background-color: #1C4B82;
   color: white;
-  padding: 16px 20px;
-  border: none;
+  padding: 16px 18px;
+  border-color: white;
   cursor: pointer;
-  width: 150px;
+  width: 180px;
   opacity: 0.8;
   margin-right: -200px;
+  border: solid 1px;
 }
 
 .calender:hover {
@@ -67,10 +68,8 @@
             {%- include functions.html func='get_value' -%}
             {%- assign translate_langs = return -%}
             {%- if translate_langs.size > 0 -%}
-              <span class="page-link">
-                  {%- include extensions/google-translate.html -%}
-              </span>
-              <button class="calender" onclick="location.href = 'https://calendly.com/adrunner/consultation?month=2019-11';" id="myButton">Check Availability</button>
+
+              <button class="calender" onclick="location.href = 'https://calendly.com/adrunner/consultation?month=2019-11';" id="myButton">Schedule Appointment</button>
             {%- endif -%}
           </div>
         </nav>
