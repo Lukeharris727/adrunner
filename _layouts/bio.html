@@ -82,7 +82,6 @@ banner: './assets/images/about_banner.png'
   margin-left: -235px;
   margin-top: 25px;
   background-color: #F6F6F6;
-
 }
 
 .form-container h2 {
@@ -124,8 +123,9 @@ banner: './assets/images/about_banner.png'
   opacity: 1;
 }
 
+
 .card-product {
-  overflow: hidden;
+  overflow: visible
   height: 500px;
   background: white;
   display: flex;
@@ -135,19 +135,31 @@ banner: './assets/images/about_banner.png'
 }
 
 .card-product video {
-  height: 80%;
-  width: 450px;
+  height: 100%;
+  width: 550px;
   object-fit: cover;
-
+  margin-right: -200px;
 }
 
+
 .card-product h2 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   margin: 0;
   text-align: center;
   padding-bottom: 10px;
   margin-top: 100px;
+   font-style: italic;
+}
+
+.card-product h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  text-align: right;
+  padding-bottom: 10px;
+  margin-top: 100px;
+  font-style: italic;
 }
 
 .card-product p {
@@ -161,7 +173,10 @@ banner: './assets/images/about_banner.png'
 
 .card-product .card-product-infos {
   padding: 16px;
+  border-right: solid;
+  margin-left: -200px;
 }
+
 
 .collapser {
   background-color: #3C4245;
@@ -199,28 +214,15 @@ banner: './assets/images/about_banner.png'
   color: black;
 }
 
-.banner2 {
-  background-size: cover;
-  background-position: center;
-  padding: 120px 0;
-  margin-bottom: 30px;
-  width: 80%;
-  margin-left: 100px;
-  margin-top: 20px;
-}
-
-.banner2 h1 {
+.faq h1 {
   text-align: center;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
-  font-weight: bold;
-
+  font-size: 34px;
 }
 
 
 </style>
 
+<body>
 <div class="bio">
   <img src="./assets/images/headshot.jpg" />
   <div class="bio-infos">
@@ -241,9 +243,13 @@ banner: './assets/images/about_banner.png'
     <h2>What problems do we solve?</h2>
     <p>AdRunner works in multiple industries, however primarily focuses on generating exclusive real estate leads. Thru tried and proven ads you, as the agent/team/broker, will have a predictable flow of leads that links directly back to whatever CRM you are already using. Your process of generating real estate leads will be streamlined, allowing you to focus your time on working the leads as well as other income producing activities.  In addition, AdRunner supplies best practices for real estate lead follow up. This includes cadences for texting, calling, and emails as well as scripts for each of those channels that actually work. </p>
   </div>
+  <h1>How It Works
   <video class="video" controls>
       <source src="./assets/images/video.mp4" type=video/mp4 />
+    </video>
+  </h1>
 </div>
+
 
 <hr>
 
@@ -251,10 +257,8 @@ banner: './assets/images/about_banner.png'
 </div>
 
 
-<div class="banner2" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('./assets/images/faq.jpg');">
-  <div class="container">
+<div class="faq">
     <h1><strong>FAQ</strong></h1>
-  </div>
 </div>
 
 <button class="collapser">What does it cost?</button>
@@ -340,4 +344,5 @@ for (i = 0; i < coll.length; i++) {
 
     </form>
   </div>
+</body>
 

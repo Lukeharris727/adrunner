@@ -34,22 +34,28 @@ a { color: white; text-decoration: none; }
 
 #arrow {
   margin-left: 600px;
-  margin-top: 360px;
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
+  margin-top: 350px;
+  color: #1C4B82;
+  padding: 15px 45px;
+  border-radius: 50px;
+  background: white;
+  transition: background 0.3s ease;
+  position: absolute;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 #arrow:hover {
-  color: white;
+  background: #E5DFDF;
 }
+
 
 </style>
 
   <section class="page-banner">
     <div class="page-banner-img">
       {%- if auto_banner == true -%}
-        <div style="background-image: url('./assets/images/adRunnerCover.png')"><a class="fa fa-arrow-down fa-2x" id="arrow" href="#section2">View Demo</a></div>
+        <div style="background-image: url('./assets/images/adRunnerCover.png')"><a class="button" id="arrow" href="#section2">View Demo</a></div>
       {%- endif  -%}
     </div>
     <div class="wrapper">
