@@ -1,7 +1,9 @@
 ---
 layout: service_default
 banner_html: post-header.html
+disqus: false
 ---
+
 
 <div class="post">
   <section>
@@ -16,31 +18,32 @@ banner_html: post-header.html
 
     {%- include views/article.html -%}
 
+
+
+
     <div class="post-nav">
       {%- if page.previous -%}
-      <a href="{{ page.previous.url }}" title="{{ page.previous.title | escape }}">&laquo; Prev</a>
+      <a href="{{ page.previous.url }}" title="{{ page.previous.title | escape }}">&laquo; Previous Article</a>
       {%- else -%}
       <span></span>
       {%- endif -%}
 
       {%- if page.next -%}
-      <a href="{{ page.next.url }}" title="{{ page.next.title | escape }}">Next &raquo;</a>
+      <a href="{{ page.next.url }}" title="{{ page.next.title | escape }}">Next Article &raquo;</a>
       {%- else -%}
       <span></span>
       {%- endif -%}
     </div>
 
-    {%- if page.comments != false -%}
-
-    {%- if site.disqus.shortname -%}
-    {%- include extensions/comments/disqus.html -%}
-    {%- endif -%}
-
-    {%- if site.gitment.username -%}
-    {%- include extensions/comments/gitment.html -%}
-    {%- endif -%}
-
-    {%- endif -%}
+   {% if page.comments != false %}
+    <div class="container">
+        <div id="comments" class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                {% include disqus.html %}
+            </div>
+        </div>
+    </div>
+{% endif %}
 
   </section>
 </div>
