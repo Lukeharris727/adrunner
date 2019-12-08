@@ -1,4 +1,25 @@
 ---
-layout: categories
+layout: default2
 title: Blog
 ---
+<style>
+.row-listrecent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  height: 400px;
+  padding-bottom: 30px;
+}
+
+
+</style>
+
+
+<div class="row-listrecent">
+  {% for post in site.posts %}
+
+   {% include views/postbox.html %}
+
+  {% endfor %}
+</div>
+
