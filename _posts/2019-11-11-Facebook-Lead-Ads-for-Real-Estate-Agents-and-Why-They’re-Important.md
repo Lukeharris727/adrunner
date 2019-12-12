@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Facebook Lead Ads for Real Estate Agents and Why They're Important"
-image: assets/images/blog1.png
+image: /assets/images/blog1.png
 ---
 
 
