@@ -10,7 +10,7 @@ image: assets/images/blog1.png
 <span style="padding: 300px">
 </span>
 
-![](/assets/images/photo1.png)
+![](./assets/images/photo1.png)
 
 <span style="padding: 300px">
 </span>
