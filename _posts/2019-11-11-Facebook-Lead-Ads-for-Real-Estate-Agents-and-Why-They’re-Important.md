@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Facebook Lead Ads for Real Estate Agents and Why They're Important"
-image: /assets/images/blog1.png
+image: assets/images/blog1.png
 ---
 
 
@@ -10,7 +10,7 @@ image: /assets/images/blog1.png
 <span style="padding: 300px">
 </span>
 
-![](./assets/images/photo1.png)
+![](/assets/images/photo1.png)
 
 <span style="padding: 300px">
 </span>
