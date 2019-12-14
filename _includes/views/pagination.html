@@ -1,0 +1,42 @@
+{%- if page.paginator -%}
+  {%- assign paginator = page.paginator -%}
+{%- elsif paginator == nil -%}
+  {%- assign paginator = site -%}
+{%- endif -%}
+
+{%- if paginator.posts.size > 0 -%}
+<style>
+.pagination {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  height: 400px;
+  padding-bottom: 30px;
+}
+
+.recent-posts h2 {
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+}
+
+</style>
+
+<div class="recent-posts">
+  <h2>Recent Posts</h2>
+</div>
+
+<div class="pagination">
+  <!-- Post list links -->
+    {%- for post in paginator.posts limit:3-%}
+
+    {% include views/postbox.html %}
+
+    {%- endfor -%}
+
+  <!-- Pagination links -->
+  {%- if paginator.posts.size < site.posts.size -%}
+    {%- include views/paginator.html -%}
+  {%- endif -%}
+</div>
+{%- endif -%}

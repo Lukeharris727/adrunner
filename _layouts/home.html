@@ -95,7 +95,7 @@ banner: './assets/images/adRunnerCover.png'
   justify-content: space-between;
   margin-bottom: 30px;
   height: 100%;
-
+  cursor: pointer;
 }
 
 .why {
@@ -103,6 +103,7 @@ banner: './assets/images/adRunnerCover.png'
   height: 100%;
   margin: auto;
   padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .text-center {
@@ -186,7 +187,7 @@ html {
 
 <div class="why">
     <h3 class="text-center">Why AdRunner?</h3>
-    <div class="reasons">
+    <div class="reasons" onclick="location.href = '/services.html';" id="serviceroute">
       <div class="reason">
         <img src="./assets/images/time.png">
         <h4>Save Time</h4>
@@ -264,6 +265,7 @@ html {
     <label for="email">Email</label>
     <input type="text" placeholder="Enter Email" name="email" required>
 
+    <input type="hidden" name="_next" value="https://lukeharris727.github.io/adrunner/demo.html"/>
 
     <button type="submit" class="btn">View Demo</button>
 
@@ -271,6 +273,14 @@ html {
   </div>
 
 </body>
+
+<script>
+
+  document.getElementById("serviceroute").onclick = function () {
+        location.href = "/services.html";
+  };
+
+</script>
 
 
 </html>
