@@ -23,13 +23,13 @@ comments: true
 
     <div class="post-nav">
       {%- if page.previous -%}
-      <a href="{{ baseurl.post.previous.url }}" title="{{ page.previous.title | escape }}">&laquo; Previous Article</a>
+      <a href="{{ post.previous.url }}" title="{{ page.previous.title | escape }}">&laquo; Previous Article</a>
       {%- else -%}
       <span></span>
       {%- endif -%}
 
       {%- if page.next -%}
-      <a href="{{ baseurl.post.next.url }}" title="{{ page.next.title | escape }}">Next Article &raquo;</a>
+      <a href="{{ post.next.url }}" title="{{ page.next.title | escape }}">Next Article &raquo;</a>
       {%- else -%}
       <span></span>
       {%- endif -%}
