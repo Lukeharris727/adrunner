@@ -54,7 +54,7 @@ image: assets/images/blog1.png
 <span style="padding: 300px">
 </span>
 
-![]({{site.baseurl}}/assets/images/photo3.pdf)
+![]({{site.baseurl}}/assets/images/photo3.jpg)
 
 <span style="padding: 300px">
 </span>
