@@ -6,7 +6,7 @@ image: assets/images/blog2.png
 
 <span style="font-size:20px; padding-bottom: 20px; padding-top: 20px">I’ve written previous post about the power of Facebook’s Lead Ads, you can check it out [here](/2019/11/11/Facebook-Lead-Ads-for-Real-Estate-Agents-and-Why-They-re-Important.html). In a nutshell however, the Facebook Lead Ad is a form that is built within Facebook where it doesn’t drive the consumer outside of Facebook to another website. Additionally the form is pre-populated with the consumers Name, Email, and Phone Number since this data is already stored on Facebook with that user. Thus there are less steps required for the consumer to give his/her information, creating a lower barrier to entry. Google has recently released it’s own ‘lower barrier to entry’ form called the Google Lead Form Extension. The Extension is found under ‘Ads & extensions’ and is created at the campaign level.</span>
 
-![](/assets/images/extensions.jpg)
+![]({{site.baseurl}}/assets/images/extensions.jpg)
 
 ## Lead Form Comparison
 
@@ -14,11 +14,11 @@ image: assets/images/blog2.png
 
 * <span style="font-size:20px; padding-bottom: 20px; padding-top: 20px">Forms are built directly within Facebook/Google Platform:</span>
 
-![](/assets/images/leads.jpg)
+![]({{site.baseurl}}/assets/images/leads.jpg)
 
 * <span style="font-size:20px; padding-bottom: 20px; padding-top: 20px">The consumer has the option of resuming activity on Facebook/Google or going to the Advertiser’s website:</span>
 
-![](/assets/images/thankyou.jpg)
+![]({{site.baseurl}}/assets/images/thankyou.jpg)
 
 * <span style="font-size:20px; padding-bottom: 20px; padding-top: 20px">Information is pre-populated from Google’s data on the user.</span>
 

@@ -10,7 +10,7 @@ image: assets/images/blog1.png
 <span style="padding: 300px">
 </span>
 
-![](/assets/images/photo1.png)
+![]({{site.baseurl}}/assets/images/photo1.png)
 
 <span style="padding: 300px">
 </span>
@@ -23,7 +23,7 @@ image: assets/images/blog1.png
 <span style="padding: 300px">
 </span>
 
-![](/assets/images/photo2.jpg)
+![]({{site.baseurl}}/assets/images/photo2.jpg)
 
 <span style="padding: 300px">
 </span>
@@ -54,7 +54,7 @@ image: assets/images/blog1.png
 <span style="padding: 300px">
 </span>
 
-![](/assets/images/photo3.pdf)
+![]({{site.baseurl}}/assets/images/photo3.pdf)
 
 <span style="padding: 300px">
 </span>
