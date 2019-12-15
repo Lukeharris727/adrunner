@@ -44,6 +44,7 @@ header_pages:
   - about.html
   - blog.html
   - contact.html
+  - contacto.html
 
 theme_color: spacegrey
 
