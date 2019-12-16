@@ -288,7 +288,7 @@ html {
 /**
  * Footer
  */
-    .footer {
+    .site-footer {
 
     @include media-query($on-palm) {
       display: none;
