@@ -286,6 +286,16 @@ html {
 
 
 /**
+ * Footer
+ */
+    .footer {
+
+    @include media-query($on-palm) {
+      display: none;
+    }
+  }
+
+/**
  * Archives page
  */
 
