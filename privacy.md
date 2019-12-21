@@ -154,6 +154,6 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 
 If you have any questions about this Privacy Policy, please contact us:
 
-1804 Garnet Ave. STE 532
-San Diego, CA 92109 
-Email: zach@adrunnerllc.com
+<div>1804 Garnet Ave. STE 532</div>
+<div>San Diego, CA 92109 </div>
+<div>Email: zach@adrunnerllc.com</div>
