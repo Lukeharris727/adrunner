@@ -127,6 +127,10 @@ banner: './assets/images/adRunnerCover.png'
   border-radius: 5px;
   align-items: center;
   justify-content: center;
+
+  @include media-query($on-palm) {
+  display: none;
+    }
 }
 
 .back {
@@ -134,6 +138,10 @@ banner: './assets/images/adRunnerCover.png'
   margin-left: -235px;
   margin-top: 25px;
   background-color: #F6F6F6;
+
+  @include media-query($on-palm) {
+   display: none;
+    }
 
 }
 
