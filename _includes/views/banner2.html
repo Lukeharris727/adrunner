@@ -29,8 +29,23 @@
   {% endif %}
   <style>
 
+  @media screen and (min-width: 550px) {
   .page-banner-heading {
     text-align: center;
+  }
+
+  .page-banner{}
+
+  .page-banner-img{}
+}
+
+  @media screen and (max-width: 550px) {
+  .page-banner{
+    display: none;
+  }
+
+  .page-banner-img{
+    display: none;
   }
 
   </style>

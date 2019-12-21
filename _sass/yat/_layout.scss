@@ -542,7 +542,8 @@ span.post-read-more a:hover {
   }
 
   @include media-query($on-palm) {
-    height: $banner-height / 1.7;
+    height: $banner-height / 1.5;
+    width: $banner-width / 1.5
   }
 }
 
