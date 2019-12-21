@@ -15,7 +15,7 @@
 <style>
 
 @media screen and (min-width: 550px) {
-.calender {
+.calender1 {
   background-color: #1C4B82;
   color: white;
   padding: 16px 18px;
@@ -28,13 +28,13 @@
   border-radius: 20px;
 }
 
-.calender:hover {
+.calender1:hover {
   opacity: 1;
 }
 }
 
 @media screen and (max-width: 550px) {
-.calender {
+.calender1 {
   background-color: #1C4B82;
   color: white;
   padding: 10px 12px;
@@ -46,7 +46,7 @@
   border-radius: 20px;
 }
 
-.calender:hover {
+.calender1:hover {
   opacity: 1;
 }
 }
@@ -84,7 +84,7 @@
               </a>
               {%- endif -%}
             {%- endfor -%}
-            <button class="calender" onclick="location.href = '/adrunner/calendly/';" id="myButton">Schedule Appointment</button>
+            <button class="calender1" onclick="location.href = '/adrunner/calendly/';" id="myButton">Schedule Appointment</button>
 
             {%- assign name = 'translate_langs' -%}
             {%- include functions.html func='get_value' -%}
