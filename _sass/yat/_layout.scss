@@ -108,22 +108,7 @@ html {
     }
   }
 
-  .calender {
-  background-color: #1C4B82;
-  color: white;
-  padding: 16px 18px;
-  border-color: white;
-  cursor: pointer;
-  width: 180px;
-  opacity: 0.8;
-  margin-right: -200px;
-  border: solid 1px;
-  border-radius: 20px;
-}
 
-  .calender:hover {
-  opacity: 1;
-}
   @include media-query($on-palm) {
     position: absolute;
     top: 0;

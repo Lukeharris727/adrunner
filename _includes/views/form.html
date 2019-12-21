@@ -10,6 +10,13 @@
   align-items: center;
   justify-content: center;
 
+  @include media-query($on-palm) {
+    background color: red;
+
+  label[for="name"] {
+      display: hidden;
+    }
+  }
 }
 
 .back {
