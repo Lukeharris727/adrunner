@@ -1,0 +1,84 @@
+<style>
+/* Add styles to the form container */
+.form-container {
+  width: 500px;
+  padding: 10px;
+  margin-left: 400px;
+  background-color: #F6F6F6;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.back {
+  width: 1375px;
+  margin-left: -235px;
+  margin-top: 25px;
+  background-color: #F6F6F6;
+
+
+}
+
+.form-container h2 {
+  text-align: center;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 95%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #D4D7DD;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #1C4B82;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin-bottom:10px;
+  margin-left: 125px;
+  opacity: 0.8;
+}
+
+
+
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+
+
+
+<div class="back">
+  <form action="https://formspree.io/zach@adrunnerllc.com" method="POST" class="form-container" id="section2">
+    <h2>Start Generating Business Today!</h2>
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+    <label for="number">Phone Number</label>
+    <input type="text" id="number" name="phonenumber" placeholder="Your phone number.." required>
+
+    <label for="email">Email</label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <input type="hidden" name="_next" value="https://lukeharris727.github.io/adrunner/demo.html"/>
+
+    <button type="submit" class="btn">View Demo</button>
+
+    </form>
+  </div>

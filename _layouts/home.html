@@ -128,9 +128,6 @@ banner: './assets/images/adRunnerCover.png'
   align-items: center;
   justify-content: center;
 
-  @include media-query($on-palm) {
-  display: none;
-    }
 }
 
 .back {
@@ -139,9 +136,6 @@ banner: './assets/images/adRunnerCover.png'
   margin-top: 25px;
   background-color: #F6F6F6;
 
-  @include media-query($on-palm) {
-   display: none;
-    }
 
 }
 
@@ -257,6 +251,8 @@ html {
 </div>
 
 <hr>
+
+{% include views/form.html %}
 
 
 
