@@ -149,39 +149,7 @@ html {
   }
 }
 
-.form-container {
-  width: 500px;
-  padding: 10px;
-  margin-left: 400px;
-  background-color: #F6F6F6;
-  border-radius: 5px;
-  align-items: center;
-  justify-content: center;
 
-  @include media-query($on-palm) {
-    display: hidden;
-
-
-  label[for="name"] {
-      display: hidden;
-    }
-  }
-}
-
-.back {
-  width: 1375px;
-  margin-left: -235px;
-  margin-top: 25px;
-  background-color: #F6F6F6;
-
-  @include media-query($on-palm) {
-  display: hidden;
-
-  label[for="name"] {
-      display: hidden;
-    }
-  }
-}
 
 /**
  * Site footer
