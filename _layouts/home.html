@@ -10,6 +10,7 @@ banner: './assets/images/adRunnerCover.png'
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
+@media screen and (min-width: 550px) {
 .review-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -55,15 +56,6 @@ banner: './assets/images/adRunnerCover.png'
   vertical-align: middle;
   height: 40px;
   border-radius: 50%;
-}
-
-.review-page {
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.review-page h2 {
-  padding-top: 15px;
 }
 
 
@@ -117,7 +109,58 @@ banner: './assets/images/adRunnerCover.png'
 .padding {
   padding: 10px;
 }
+}
 
+@media screen and (max-width: 550px) {
+
+  .review-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  height: 200px;
+  padding-bottom: 5px;
+}
+
+.review {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+
+.review h2 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.review p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.review .review-infos {
+  margin-top: 2px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.review .review-user {
+  position: absolute;
+  right: 4px;
+  top: 35px;
+  width: 40px;
+  vertical-align: middle;
+  height: 40px;
+  border-radius: 50%;
+}
+
+  }
 
 
 html {
