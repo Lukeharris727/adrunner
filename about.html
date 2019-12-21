@@ -6,19 +6,6 @@ banner: "{{site.baseurl}}/assets/images/about_banner.png"
 <style>
 
 @media screen and (min-width: 550px) {
-.description {
-  margin-top: 100px;
-  font-size: 18px;
-}
-
-.video {
-  align-items: center;
-  justify-content: center;
-  margin-left: 50px;
-  border: 20px groove #ddd;
-  width: 80%;
-}
-
 .padding {
   padding: 10px;
 }
@@ -96,15 +83,6 @@ banner: "{{site.baseurl}}/assets/images/about_banner.png"
    font-style: italic;
 }
 
-.card-product h1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0;
-  text-align: right;
-  padding-bottom: 10px;
-  margin-top: 100px;
-  font-style: italic;
-}
 
 .card-product p {
   font-size: 18px;
@@ -205,6 +183,71 @@ banner: "{{site.baseurl}}/assets/images/about_banner.png"
 .bio .bio-infos {
   padding: 16px;
 }
+
+.card-product {
+  background: white;
+  display: block;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.card-product video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.card-product h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  font-style: italic;
+}
+
+
+.card-product p {
+  font-size: 18px;
+  line-height: 1.4;
+  opacity: .7;
+  padding-bottom: 100px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+  border-right: solid;
+}
+
+.collapser {
+  background-color: #3C4245;
+  color: white;
+  cursor: pointer;
+  padding: 25px;
+  width: 90%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+}
+
+.collapser:hover {
+  background-color: #5F6769;
+}
+
+.inside {
+  padding: 18px;
+  font-size: 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: 86%;
+}
+
+
 
 }
 
