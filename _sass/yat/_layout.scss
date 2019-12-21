@@ -492,7 +492,6 @@ span.post-read-more a:hover {
   display: block;
   position: relative;
   height: $banner-height;
-  width: $banner-width
   background-color: $banner-background;
   transition: height 0.2s;
 
@@ -544,7 +543,6 @@ span.post-read-more a:hover {
 
   @include media-query($on-palm) {
     height: $banner-height / 1.5;
-    width: $banner-width / 1.5
   }
 }
 
