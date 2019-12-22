@@ -30,19 +30,6 @@
 
 <style>
 
-  @media screen and (min-width: 550px) {
-  .page-banner-heading {
-    text-align: center;
-  }
-
-  .page-banner{}
-
-  .page-banner-img{}
-
-  .page-banner-img-mob{
-    display: none;
-  }
-
   a { color: white; text-decoration: none; }
 
   #arrow {
@@ -61,30 +48,11 @@
   #arrow:hover {
   background: #E5DFDF;
 }
-}
-
-  @media screen and (max-width: 550px) {
-  .page-banner{}
-
-  .page-banner-img{
-  }
-
-  .page-banner-img-mob{}
-
-  #arrow {
-    display:none;
-  }
-
 
 </style>
 
   <section class="page-banner">
     <div class="page-banner-img">
-      {%- if auto_banner == true -%}
-        <div style="background-image: url('./assets/images/adRunnerCover2.png')"><a class="button" id="arrow" href="#section2">View Demo</a></div>
-      {%- endif  -%}
-    </div>
-    <div class="page-banner-img-mob">
       {%- if auto_banner == true -%}
         <div style="background-image: url('./assets/images/adRunnerCover2.png')"><a class="button" id="arrow" href="#section2">View Demo</a></div>
       {%- endif  -%}
