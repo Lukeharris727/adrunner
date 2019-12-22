@@ -30,9 +30,22 @@
 
 <style>
 
-a { color: white; text-decoration: none; }
+  @media screen and (min-width: 550px) {
+  .page-banner-heading {
+    text-align: center;
+  }
 
-#arrow {
+  .page-banner{}
+
+  .page-banner-img{}
+
+  .page-banner-mob{
+    display: none;
+  }
+
+  a { color: white; text-decoration: none; }
+
+  #arrow {
   margin-left: 600px;
   margin-top: 350px;
   color: #1C4B82;
@@ -45,9 +58,23 @@ a { color: white; text-decoration: none; }
   font-size: 16px;
 }
 
-#arrow:hover {
+  #arrow:hover {
   background: #E5DFDF;
 }
+}
+
+  @media screen and (max-width: 550px) {
+  .page-banner{}
+
+  .page-banner-img{
+    display: none;
+  }
+
+  .page-banner-mob{}
+
+  #arrow {
+    display:none;
+  }
 
 
 </style>
@@ -56,6 +83,11 @@ a { color: white; text-decoration: none; }
     <div class="page-banner-img">
       {%- if auto_banner == true -%}
         <div style="background-image: url('./assets/images/adRunnerCover.png')"><a class="button" id="arrow" href="#section2">View Demo</a></div>
+      {%- endif  -%}
+    </div>
+    <div class="page-banner-img-mob">
+      {%- if auto_banner == true -%}
+        <div style="background-image: url('./assets/images/adRunnerCover2.png')"><a class="button" id="arrow" href="#section2">View Demo</a></div>
       {%- endif  -%}
     </div>
     <div class="wrapper">
