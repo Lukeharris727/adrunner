@@ -25,6 +25,7 @@ favicon: "assets/images/icon.png"
 disqus: 'adrunnerllc-com'
 include: ["_pages"]
 permalink: /:title/
+google_analytics: 'UA-154893257-1'
 
 # Build settings
 markdown: kramdown
