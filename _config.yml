@@ -22,6 +22,7 @@ url: "www.adrunnerllc.com"
 twitter_username: jekyllrb
 github_username:  jekyll
 favicon: "assets/images/icon.png"
+logo: "assets/images/icon.png"
 disqus: 'adrunnerllc-com'
 include: ["_pages"]
 permalink: /:title/
