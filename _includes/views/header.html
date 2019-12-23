@@ -84,7 +84,7 @@
               </a>
               {%- endif -%}
             {%- endfor -%}
-            <button class="calender1" onclick="location.href = '/adrunner/calendly/';" id="myButton">Schedule Appointment</button>
+            <button class="calender1" onclick="location.href = '/calendly/';" id="myButton">Schedule Appointment</button>
 
             {%- assign name = 'translate_langs' -%}
             {%- include functions.html func='get_value' -%}
@@ -103,7 +103,7 @@
 <script>
 
   document.getElementById("myButton").onclick = function () {
-        location.href = "/adrunner/calendly/";
+        location.href = "/calendly/";
   };
 
   (function() {
