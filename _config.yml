@@ -25,6 +25,7 @@ favicon: "assets/images/icon.png"
 logo: "assets/images/icon.png"
 disqus: 'adrunnerllc-com'
 include: ["_pages"]
+include: [_redirects]
 permalink: /:title/
 google_analytics: 'UA-154893257-1'
 
