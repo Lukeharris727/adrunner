@@ -3,7 +3,9 @@ layout: post
 title:  "How to Get More Dental or Orthodontics Clients"
 image: assets/images/blog4.png
 ---
-
+<head>
+<meta name="description" content="With the right targeting, advertisement, and follow-up, Facebook advertising can create an amazing ROI for Dental or Orthodontics offices. I’m going to go through the necessary pieces in order to run your campaigns efficiently and NOT waste money.">
+</head>
 <span style="font-size:20px; padding-bottom: 20px; padding-top: 20px">With the right targeting, advertisement, and follow-up, Facebook advertising can create an amazing ROI for Dental or Orthodontics offices. I’m going to go through the necessary pieces in order to run your campaigns efficiently and NOT waste money.</span>
 
 <span style="padding: 300px">

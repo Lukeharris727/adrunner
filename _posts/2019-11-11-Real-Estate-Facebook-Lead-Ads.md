@@ -4,7 +4,9 @@ title:  "Facebook Lead Ads for Real Estate Agents and Why They're Important"
 image: assets/images/blog1.png
 ---
 
-
+<head>
+<meta name="description" content="Facebook Lead Ads provides a way for Real Estate Agents to capture a higher volume of leads when compared to traditional landing pages. Here’s how that works:">
+</head>
  <span style="font-size:20px; padding-bottom: 20px; padding-top: 20px"> It’s important to note the difference between Facebook lead ads and Landing Page conversions. I’m going to focus on Facebook Lead ads for this post and why they’re so important for real estate agents. In order to use Facebook Lead ads, you have to select ‘Lead Generation’ as your marketing objective:</span>
 
 <span style="padding: 300px">

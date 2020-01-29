@@ -3,7 +3,9 @@ layout: post
 title:  "8 Steps to Creating Dynamite Facebook Ads for Real Estate Agents"
 image: assets/images/8-Step-Guide.png
 ---
-
+<head>
+  <meta name="description" content="Below is a Step-by-Step guide that I created to allow you as the Real Estate Agent or Broker to take advantage of all of the benefits that come with Facebook advertising. I have also included a couple of my own SECRETS that I have found work exceptionally well.">
+</head>
 <span style="font-size:20px; color:red; padding-bottom: 20px; padding-top: 20px; margin-left: 40%">****Warning****</span>
 
 
