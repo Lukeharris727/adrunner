@@ -28,19 +28,14 @@ src="https://www.facebook.com/tr?id=2609819729251896&ev=PageView
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-.site-footer {
-  position: relative;
-  height: 300px;
-  margin-top: -200px;
-}
 
 @media screen and (min-width: 550px) {
 .row-listrecent {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
-  height: 400px;
   padding-bottom: 30px;
+
 }
 }
 @media screen and (max-width: 550px) {
@@ -54,7 +49,6 @@ src="https://www.facebook.com/tr?id=2609819729251896&ev=PageView
 </style>
 </head>
 
-
 <div class="row-listrecent">
   {% for post in site.posts %}
 
@@ -62,4 +56,5 @@ src="https://www.facebook.com/tr?id=2609819729251896&ev=PageView
 
   {% endfor %}
 </div>
+
 
