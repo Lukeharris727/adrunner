@@ -57,7 +57,7 @@ image: assets/images/blog4.png
 
 <span style="font-size:20px; padding-bottom: 20px; padding-top: 20px">When generating leads, it’s important to gather a Name, Phone Number, and Email. Here’s a flow diagram on how this works:</span>
 
-![]({{site.baseurl}}/assets/images/flow.png)
+![]({{site.baseurl}}/assets/images/flow.png)<span alt="Facebook Advertising for Dentists and Orthodontists"></span>
 
 
 
